@@ -5,7 +5,7 @@ import 'bloc/bloc.dart';
 import 'configs/configs.dart';
 import 'screens/screens.dart';
 
-//single screen-version
+//single screen-version(with-websocket)
 
 // DEPLOY:
 // flutter build apk --target-platform android-arm64
@@ -35,7 +35,7 @@ class MyBlocApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'bedmotor_with_http',
+      title: 'bedmotor_with_websocket',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
