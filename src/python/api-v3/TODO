@@ -1,0 +1,37 @@
+
+  
+Doing:
+  ☐ return motor-state
+
+Done:
+  ✔ import routes-API 
+
+
+
+
+Server-Step:
+  - รับข้อมูล 2 แบบ(actions)
+    - แบบ 'disconnect'
+    - แบบ 'motor-control'
+
+
+Client-Step:
+  - connecting...
+  - , รับ ws-id('connection-id') มาอ้างอิง
+  - รับ stateServer มา render(update-stateLocal)
+  - send-command
+    - //{"action":"motor-control","command":"ld"}
+    - //{"action":"motor-control","command":"00"}
+  - , onmessage(event.data.type == state) -> update-stateLocal
+  - send-disconnect
+  - , onclose() -> clear-stateLocal
+
+Web wsConnecting-state:
+  ☐ check isConnecting
+  https://stackoverflow.com/questions/23369368/how-to-get-the-current-status-of-a-javascript-websocket-connection
+  https://developer.mozilla.org/en-US/docs/Web/API/CloseEvent
+  - (xx.readyState === WebSocket.OPEN)      //1
+  - (xx.readyState === WebSocket.CLOSING)   //2
+  - (xx.readyState === WebSocket.CLOSED)    //3
+
+Archive:

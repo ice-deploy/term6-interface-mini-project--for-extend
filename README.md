@@ -1,22 +1,42 @@
-# term6-interface-mini-project--for-extend
-present version.
+```
+📦term6-interface-mini-project--for-extend
+ ┣ 📂build
+ ┃      #output-file เช่น apk-file, or(web etc...)
+ ┣ 📂docs           
+ ┃      #เก็บเอกสาร
+ ┣ 📂src
+ ┃ ┣ 📂web-src
+ ┃ ┃    #src Web ก่อน Build
+ ┃ ┣ 📂flutterApp
+ ┃ ┃    #androidApp with Flutter
+ ┃ ┗ 📂python
+ ┃      #โปรแกรม API และ motor-control
+ ┗ 📜README.md
+```
 
-# Folder Structure
-/ docs
--  เก็บเอกสาร
+<br>
 
-/ src
+# Change Logs.
+* change API-commands 
 
--- / python
+from (v1.x, v2.1.x):
+```
+1a
+1b
+10
+2a
+2b
+20
+```
+to (v2.2.x, v3.x):
+```
+ru
+rd
+r0
+lu
+ld
+l0
+00      #add stop-all
+```
 
--- -- / version-autoStop
-- for Protect network-lag
-
--- -- / version-basic
-- for easy learning.
-
--- / flutterApp
-- androidApp with Flutter
-
-/ build
-- apk-file, or(web etc...)
+อ่านเพิ่มที่ "src/python/README.md"

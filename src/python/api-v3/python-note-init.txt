@@ -1,0 +1,25 @@
+pip list
+
+pip install websockets
+
+
+
+//conda-env
+https://medium.com/@thucnc/how-to-install-python-3-and-virtual-environments-with-miniconda-in-ubuntu-18-04-c9e000a39994
+
+conda create --name conda-env python=3.8
+conda activate conda-env
+conda info -e
+conda deactivate
+
+,//conda-search pkg
+conda search enum*
+
+conda list
+conda install {package_name}
+
+#conda remove {package_name}
+conda uninstall {package_name}
+
+conda update {package_name}
+
