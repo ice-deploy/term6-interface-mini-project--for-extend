@@ -1,0 +1,10 @@
+
+Todo:
+  //web v3 vue
+  ☐ convert axios to websocket
+
+  ☐ check isConnecting
+    https://stackoverflow.com/questions/23369368/how-to-get-the-current-status-of-a-javascript-websocket-connection
+    - (xx.readyState === WebSocket.OPEN)      //1
+    - (xx.readyState === WebSocket.CLOSING)   //2
+    - (xx.readyState === WebSocket.CLOSED)    //3
